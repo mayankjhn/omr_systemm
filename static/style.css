@@ -1,0 +1,125 @@
+/* OMR Evaluation System - Custom Styles */
+
+.main {
+    padding-top: 2rem;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.main-container {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.metric-card {
+    background: #f8f9ff;
+    border: 2px solid #e1e5fe;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.1);
+}
+
+.success-box {
+    background: linear-gradient(45deg, #4CAF50, #45a049);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.error-box {
+    background: linear-gradient(45deg, #f44336, #d32f2f);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.info-box {
+    background: linear-gradient(45deg, #2196F3, #1976D2);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.progress-container {
+    background: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.sidebar .sidebar-content {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.upload-area {
+    border: 3px dashed #667eea;
+    border-radius: 15px;
+    padding: 3rem;
+    text-align: center;
+    background: #f8f9ff;
+    margin: 2rem 0;
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+    background: #f0f4ff;
+    border-color: #5a6fd8;
+}
+
+.results-table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chart-container {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    margin: 1rem 0;
+}
+
+/* Custom button styles */
+.stButton > button {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-container {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+    
+    .metric-card {
+        margin-bottom: 1rem;
+    }
+}

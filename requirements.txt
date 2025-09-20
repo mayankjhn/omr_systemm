@@ -1,0 +1,15 @@
+streamlit
+opencv-python
+numpy
+pandas
+Pillow
+scikit-learn
+scipy
+imutils
+matplotlib
+seaborn
+SQLAlchemy
+plotly
+streamlit-option-menu
+streamlit-drawable-canvas
+python-dotenv
